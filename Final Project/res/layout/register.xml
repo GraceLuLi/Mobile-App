@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+        
+    <TextView
+        android:id="@+id/nameTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="Name"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:ems="10"/>
+    <TextView
+        android:id="@+id/weightTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="10dp"
+        android:text="Weight"
+        android:textStyle="bold" />
+   <EditText
+        android:id="@+id/weight"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="60dp"
+        android:ems="10"/>
+   <TextView
+        android:id="@+id/weightTag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="140dp"
+        android:text="lb"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/heightTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="135dp"
+        android:textStyle="bold" />
+   <EditText
+        android:id="@+id/height"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="125dp"
+        android:ems="10"/>
+      <TextView
+        android:id="@+id/heightTag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="feet"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="140dp"
+        android:textStyle="bold" />
+   
+       <RadioGroup  
+        android:id="@+id/radioGroup1"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+         android:layout_marginTop="80dp"
+         android:layout_marginLeft="200dp"
+        android:orientation="vertical" >  
+  
+        <RadioButton  
+            android:id="@+id/radio0"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:checked="true"  
+            android:text="Male" />  
+  
+        <RadioButton  
+            android:id="@+id/radio1"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:text="Female" />  
+    </RadioGroup> 
+   
+    <DatePicker  
+        android:id="@+id/datePicker1"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:visibility="invisible"   
+        android:layout_alignParentBottom ="true" />  
+        
+    <TextView
+        android:id="@+id/birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"  
+         android:layout_marginTop="200dp"
+        android:text="Birthday"
+        android:textStyle="bold" />
+  
+    <Button
+        android:id="@+id/showDate"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+         android:layout_marginTop="190dp"
+        android:layout_marginLeft="100dp"
+        android:onClick="onClick"
+        android:text="Show Date" />
+    <Button
+        android:id="@+id/setDate"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+         android:layout_marginTop="190dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="onClick"
+        android:text="Set Date" />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+         android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="onClick"
+        android:text="Sumbit" />
+    <Button
+        android:id="@+id/genBarcode"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="onClick"
+        android:text="Generate Barcode" />
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="150dp" />
+    
+    <EditText 
+        android:id="@+id/test"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="350dp"
+        android:ems="10"/>
+    </RelativeLayout>
+

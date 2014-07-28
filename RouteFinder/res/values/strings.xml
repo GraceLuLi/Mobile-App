@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">routeFinder</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button1">USC Campus</string>
+    <string name="button2">Griffith Observatory</string>
+    <string name="button3">UCLA Campus</string>
+    <string name="button4">Walt Disney Concert Hall</string>
+    <string name="button5">Disneyland</string>
+    <string name="button6">Fishbowl</string>
+    <string name="button7">Kodak Theatr</string>
+    <string name="button8">LACMA (Los Angeles County Museum of Art)</string>
+    <string name="button9">The Grove</string>
+    <string name="button10">Beverly Center</string>
+    <string name="b1">Get Current Location</string>
+    <string name="b2">Find Route</string>
+    <string name="b3">result: </string>
+    <string name="b4">Show Map</string>
+    
+
+</resources>

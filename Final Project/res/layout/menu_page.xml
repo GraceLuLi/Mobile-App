@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/go_register_page"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Register" />
+     <Button
+        android:id="@+id/go_scanner_page"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Check In/Out" />
+      <Button
+        android:id="@+id/go_light_page"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Light Enviroment" />
+       <Button
+        android:id="@+id/go_search_page"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Search" />
+
+</LinearLayout>

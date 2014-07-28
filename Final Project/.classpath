@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="/Users/luli/Desktop/EE579/final project_ee579/finalproject_jar/android-support-v4_v9.jar"/>
+	<classpathentry kind="lib" path="/Users/luli/Desktop/EE579/final project_ee579/finalproject_jar/sensorsimulator-lib-2.0-rc1.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

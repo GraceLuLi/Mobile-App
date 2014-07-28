@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, GPS_data_inputActivity!</string>
+    <string name="app_name">GPS_data_input</string>
+
+</resources>

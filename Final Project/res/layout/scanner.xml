@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/myName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" 
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/NameText"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/myTime"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold" 
+        android:text="Time" />
+
+    <EditText
+        android:id="@+id/TimeText"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="80dp"
+        android:ems="10" />
+    
+     <RadioGroup  
+        android:id="@+id/radioGroup1"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+         android:layout_marginTop="130dp"
+         android:layout_marginLeft="10dp"
+        android:orientation="vertical" >  
+  
+        <RadioButton  
+            android:id="@+id/radio0"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:checked="true"  
+            android:text="Check In" />  
+  
+        <RadioButton  
+            android:id="@+id/radio1"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:text="Check Out" />  
+    </RadioGroup> 
+
+    <Button
+        android:id="@+id/checkQR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="140dp"
+        android:onClick="onClick"
+        android:text="Check QRcode" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="190dp"
+        android:onClick="onClick"
+        android:text="Reset" />
+     <Button
+        android:id="@+id/submit"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="240dp"
+        android:onClick="onClick"
+        android:text="Submit" />
+      <EditText
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="300dp"
+        android:ems="10" />
+     <!--   <EditText
+        android:id="@+id/macAddress"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="350dp"
+        android:ems="10" />
+       <Button
+        android:id="@+id/getMacAddr"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="350dp"
+        android:onClick="onClick"
+        android:text="MacAddr" />-->
+
+</RelativeLayout>
